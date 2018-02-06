@@ -3,7 +3,7 @@
 <head>
     <meta name="generator"
           content="HTML Tidy for HTML5 (experimental) for Windows https://github.com/w3c/tidy-html5/tree/c63cc39"/>
-    <title>Mobile Evolution Dataset - About</title>
+    <title>Mobile Evolution Dataset - Schema Details</title>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="assets/w3.css"/>
@@ -13,6 +13,13 @@
         p {
             text-align: justify;
             text-justify: inter-word;
+        }
+        td{
+            text-align: left;
+            padding: 5px;
+        }
+        table, th, td {
+            border: 1px solid black;
         }
     </style>
 </head>
@@ -28,6 +35,89 @@
 </header>
 <div class="w3-center w3-padding-32">
     <div class="w3-card w3-container">
+
+        <table>
+            <thead>
+            <th>Table Name</th>
+            <th>Description</th>
+            <th>Total Rows</th>
+            </thead>
+            <tbody>
+            <tr>
+                <td>git_commit_log</td>
+                <td>Commit details for the cloned apps</td>
+                <td>1,037,236</td>
+            </tr>
+            <tr>
+                <td>git_commit_files</td>
+                <td>Files associated with each commit</td>
+                <td>36,793,711</td>
+            </tr>
+            <tr>
+                <td>git_tag</td>
+                <td>Tag details for the cloned apps</td>
+                <td>30,435</td>
+            </tr>
+            <tr>
+                <td>github_issue</td>
+                <td>GitHub issue details for the cloned apps</td>
+                <td>88,586</td>
+            </tr>
+            <tr>
+                <td>github_issue_committ</td>
+                <td>Commits associated with each GitHub issue</td>
+                <td>105,268</td>
+            </tr>
+            <tr>
+                <td>github_issue_label</td>
+                <td>Labels associated with each GitHub issue</td>
+                <td>113,323</td>
+            </tr>
+            <tr>
+                <td>github_release</td>
+                <td>Labels associated with each GitHub issue</td>
+                <td>113,323</td>
+            </tr>
+            <tr>
+                <td>github_metadata</td>
+                <td>Metadata details for GitHub hosted apps</td>
+                <td>1,835</td>
+            </tr>
+            <tr>
+                <td>google_play</td>
+                <td>Google Play details for the cloned apps</td>
+                <td>1,222</td>
+            </tr>
+            <tr>
+                <td>fdroid</td>
+                <td>App details retrieved from F-Droid</td>
+                <td>2,667</td>
+            </tr>
+            <tr>
+                <td>apps</td>
+                <td>Git clone source url for the cloned apps</td>
+                <td>2,011</td>
+            </tr>
+            <tr>
+                <td>manifest_history</td>
+                <td>Details extracted from all revisions of the AndroidManifest.xml file</td>
+                <td>97,937</td>
+            </tr>
+            <tr>
+                <td>manifest_permission_history</td>
+                <td>Permissions extracted from all revisions of the AndroidManifest.xml file</td>
+                <td>583,557</td>
+            </tr>
+            <tr>
+                <td>manifest_permission_changes</td>
+                <td>The type of permission changes performed</td>
+                <td>43,267</td>
+            </tr>
+            </tbody>
+
+        </table>
+
+
         <p>Click <a href='assets/schema.png' target='_blank'>here</a> to access details about the datasets schema.</p>
 
         <a href="index.html"><i class="fa fa-home w3-text-theme" style="font-size:23px;"></i></a>
